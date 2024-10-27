@@ -1,31 +1,40 @@
 <script>
-  export let showContent;
+  import { createEventDispatcher } from 'svelte';
+  const dispatch = createEventDispatcher();
 </script>
 
-{#if !showContent}
-  <div class="entrance">
-    <div class="door">
-      <h1>Enter The Philosopher's Chamber</h1>
-    </div>
-  </div>
-{/if}
+<div class="entrance" role="button" tabindex="0" on:click={() => dispatch('enter')} on:keypress={(e) => e.key === 'Enter' && dispatch('enter')}>
+  <button class="door" type="button">
+    <h1>Enter The Philosopher's Chamber</h1>
+  </button>
+</div>
 
 <style>
   .entrance {
-    position: absolute;
-    inset: 0;
-    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    background: black;
   }
 
   .door {
-    text-align: center;
+    background: #000;
     color: #DAA520;
-    cursor: pointer;
     padding: 2rem;
-    border: 2px solid #DAA520;
+    cursor: pointer;
+    text-align: center;
+    border: none; /* Added to remove default button border */
+    border-radius: 5px; /* Added for rounded corners */
+    transition: background 0.3s; /* Added for smooth background transition */
+  }
+
+  .door:hover {
+    background: #333; /* Added hover effect */
+  }
+
+  .door:focus {
+    outline: 2px solid #DAA520; /* Added focus outline for accessibility */
   }
 
   .door h1 {
@@ -35,3 +44,4 @@
     letter-spacing: 0.2em;
   }
 </style>
+
