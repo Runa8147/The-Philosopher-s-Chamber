@@ -51,8 +51,8 @@ For Software:
 <img width="1280" alt="readme-banner" src="https://github.com/Runa8147/The-Philosopher-s-Chamber/blob/master/Screenshot%202024-10-28%20174726.png">
 *Images of Webapp*
 
-![Final](Add photo of final product here)
-*Explain the final build*
+<img width="1280" alt="readme-banner" src="https://github.com/Runa8147/The-Philosopher-s-Chamber/blob/master/Screenshot%20(49).png">
+
 
 ### Project Demo
 # Video
