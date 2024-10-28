@@ -1,46 +1,43 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# The Philosopher's Chamber 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Stoic
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
-
+- Team Lead: Arun John M S - Jyothi engineering college
+- Member 2: Akhildev C vasudevan - Jyothi engineering college
+- Member 3: Alan Kuriyan Joy - Jyothi engineering college
+- 
 ### Project Description
-[2-3 lines about what your project does]
+This project creates an engaging single-page web application simulating a philosophical debate between Aristotle and Socrates, powered by AI (Gemini & Gemma). Users enter a virtual museum environment, select a debate topic, and witness an AI-generated conversation, enhanced with animations and text-to-speech. This blends education and entertainment, offering an interactive and visually appealing exploration of philosophical ideas. 🏛🗣
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People want someone to debate on given topic or we are testing AI debate capabalities and potential to win over humans.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We've conjured a time machine, but instead of sending people back, we're bringing the past to the present! 🧙‍♂️🔮
+We are making AI debate like Socrates and Aristotle
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Javascript
+- Svelte+Sveltekit
+- Google-generativeai,marked
+- Google gemini-flash ai model,speech synthesis
+- used claude,cursor,playground
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+npm install
 
 # Run
-[commands]
+npm run dev
 
 ### Project Documentation
 For Software:
@@ -83,13 +80,10 @@ For Hardware:
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
-
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Arun John M S: AI and debate logic
+- Akhildev C Vasudevan: Frontend Design
+- Alan Kuriyan Joy: Documentation
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
